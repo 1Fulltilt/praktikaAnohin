@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="id_">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="id_vladelca" Type="Int32" />
+    <Property Name="id_avto" Type="Int32" />
+    <Property Name="id_storozha" Type="Int32" />
+    <Property Name="id_zapisi" Type="Int32" />
+    <NavigationProperty Name="Ohrana" Relationship="Self.FK_id__Ohrana" FromRole="id_" ToRole="Ohrana" />
+    <NavigationProperty Name="Prihod___uhod_avto" Relationship="Self.FK_id__Prihod___uhod_avto" FromRole="id_" ToRole="Prihod___uhod_avto" />
+    <NavigationProperty Name="Spiski_vladelca" Relationship="Self.FK_id__Spiski_vladelca" FromRole="id_" ToRole="Spiski_vladelca" />
+    <NavigationProperty Name="Spisok_Avto" Relationship="Self.FK_id__Spisok_Avto" FromRole="id_" ToRole="Spisok_Avto" />
+  </EntityType>
+  <EntityType Name="Ohrana">
+    <Key>
+      <PropertyRef Name="id_storozha" />
+    </Key>
+    <Property Name="id_storozha" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="id_" Relationship="Self.FK_id__Ohrana" FromRole="Ohrana" ToRole="id_" />
+  </EntityType>
+  <EntityType Name="Prihod___uhod_avto">
+    <Key>
+      <PropertyRef Name="id_zapisi" />
+    </Key>
+    <Property Name="id_zapisi" Type="Int32" Nullable="false" />
+    <Property Name="data" Type="DateTime" Precision="0" />
+    <Property Name="time" Type="Time" Precision="7" />
+    <NavigationProperty Name="id_" Relationship="Self.FK_id__Prihod___uhod_avto" FromRole="Prihod___uhod_avto" ToRole="id_" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__role_id__72C60C4A" FromRole="Roles" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Spiski_vladelca">
+    <Key>
+      <PropertyRef Name="id_vladelca" />
+    </Key>
+    <Property Name="id_vladelca" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="id_" Relationship="Self.FK_id__Spiski_vladelca" FromRole="Spiski_vladelca" ToRole="id_" />
+  </EntityType>
+  <EntityType Name="Spisok_Avto">
+    <Key>
+      <PropertyRef Name="Id_avto" />
+    </Key>
+    <Property Name="Id_avto" Type="Int32" Nullable="false" />
+    <Property Name="marka_avto" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="model_avto" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="gos_znak" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="id_" Relationship="Self.FK_id__Spisok_Avto" FromRole="Spisok_Avto" ToRole="id_" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Users__role_id__72C60C4A" FromRole="Users" ToRole="Roles" />
+  </EntityType>
+  <Association Name="FK_id__Ohrana">
+    <End Role="Ohrana" Type="Self.Ohrana" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ohrana">
+        <PropertyRef Name="id_storozha" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_storozha" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Prihod___uhod_avto">
+    <End Role="Prihod___uhod_avto" Type="Self.Prihod___uhod_avto" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Prihod___uhod_avto">
+        <PropertyRef Name="id_zapisi" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_zapisi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Spiski_vladelca">
+    <End Role="Spiski_vladelca" Type="Self.Spiski_vladelca" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spiski_vladelca">
+        <PropertyRef Name="id_vladelca" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_vladelca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Spisok_Avto">
+    <End Role="Spisok_Avto" Type="Self.Spisok_Avto" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spisok_Avto">
+        <PropertyRef Name="Id_avto" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_avto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__role_id__72C60C4A">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="id_" EntityType="Self.id_" />
+    <EntitySet Name="Ohrana" EntityType="Self.Ohrana" />
+    <EntitySet Name="Prihod___uhod_avto" EntityType="Self.Prihod___uhod_avto" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="Spiski_vladelca" EntityType="Self.Spiski_vladelca" />
+    <EntitySet Name="Spisok_Avto" EntityType="Self.Spisok_Avto" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_id__Ohrana" Association="Self.FK_id__Ohrana">
+      <End Role="Ohrana" EntitySet="Ohrana" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Prihod___uhod_avto" Association="Self.FK_id__Prihod___uhod_avto">
+      <End Role="Prihod___uhod_avto" EntitySet="Prihod___uhod_avto" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Spiski_vladelca" Association="Self.FK_id__Spiski_vladelca">
+      <End Role="Spiski_vladelca" EntitySet="Spiski_vladelca" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Spisok_Avto" Association="Self.FK_id__Spisok_Avto">
+      <End Role="Spisok_Avto" EntitySet="Spisok_Avto" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__role_id__72C60C4A" Association="Self.FK__Users__role_id__72C60C4A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+</Schema>

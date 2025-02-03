@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Database1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="id_">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id_vladelca" Type="int" />
+    <Property Name="id_avto" Type="int" />
+    <Property Name="id_storozha" Type="int" />
+    <Property Name="id_zapisi" Type="int" />
+  </EntityType>
+  <EntityType Name="Ohrana">
+    <Key>
+      <PropertyRef Name="id_storozha" />
+    </Key>
+    <Property Name="id_storozha" Type="int" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Prihod _ uhod avto">
+    <Key>
+      <PropertyRef Name="id_zapisi" />
+    </Key>
+    <Property Name="id_zapisi" Type="int" Nullable="false" />
+    <Property Name="data" Type="date" />
+    <Property Name="time" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="priority" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Spiski_vladelca">
+    <Key>
+      <PropertyRef Name="id_vladelca" />
+    </Key>
+    <Property Name="id_vladelca" Type="int" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Spisok Avto">
+    <Key>
+      <PropertyRef Name="Id_avto" />
+    </Key>
+    <Property Name="Id_avto" Type="int" Nullable="false" />
+    <Property Name="marka_avto" Type="nvarchar" MaxLength="30" />
+    <Property Name="model_avto" Type="nvarchar" MaxLength="30" />
+    <Property Name="gos_znak" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="role_id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Users__role_id__72C60C4A">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Ohrana">
+    <End Role="Ohrana" Type="Self.Ohrana" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ohrana">
+        <PropertyRef Name="id_storozha" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_storozha" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Prihod _ uhod avto">
+    <End Role="Prihod _ uhod avto" Type="Self.Prihod _ uhod avto" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Prihod _ uhod avto">
+        <PropertyRef Name="id_zapisi" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_zapisi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Spiski_vladelca">
+    <End Role="Spiski_vladelca" Type="Self.Spiski_vladelca" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spiski_vladelca">
+        <PropertyRef Name="id_vladelca" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_vladelca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id__Spisok Avto">
+    <End Role="Spisok Avto" Type="Self.Spisok Avto" Multiplicity="0..1" />
+    <End Role="id_" Type="Self.id_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spisok Avto">
+        <PropertyRef Name="Id_avto" />
+      </Principal>
+      <Dependent Role="id_">
+        <PropertyRef Name="id_avto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Хранилище Database1ModelContainer">
+    <EntitySet Name="id_" EntityType="Self.id_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ohrana" EntityType="Self.Ohrana" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prihod _ uhod avto" EntityType="Self.Prihod _ uhod avto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Spiski_vladelca" EntityType="Self.Spiski_vladelca" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Spisok Avto" EntityType="Self.Spisok Avto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Users__role_id__72C60C4A" Association="Self.FK__Users__role_id__72C60C4A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Ohrana" Association="Self.FK_id__Ohrana">
+      <End Role="Ohrana" EntitySet="Ohrana" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Prihod _ uhod avto" Association="Self.FK_id__Prihod _ uhod avto">
+      <End Role="Prihod _ uhod avto" EntitySet="Prihod _ uhod avto" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Spiski_vladelca" Association="Self.FK_id__Spiski_vladelca">
+      <End Role="Spiski_vladelca" EntitySet="Spiski_vladelca" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id__Spisok Avto" Association="Self.FK_id__Spisok Avto">
+      <End Role="Spisok Avto" EntitySet="Spisok Avto" />
+      <End Role="id_" EntitySet="id_" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

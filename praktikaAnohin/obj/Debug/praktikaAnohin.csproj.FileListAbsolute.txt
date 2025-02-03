@@ -1,0 +1,238 @@
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\Database1.mdf
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\Database1_log.ldf
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe.config
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.pdb
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.dll
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.xml
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.g.cs
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\App.g.cs
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_Content.g.cs
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.cache
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.lref
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.baml
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.g.resources
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.Properties.Resources.resources
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.GenerateResource.cache
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CopyComplete
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.exe
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.pdb
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.g.cs
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.baml
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.g.cs
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.baml
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.g.cs
+C:\Users\student\source\repos\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\Database1.mdf
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\Database1_log.ldf
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe.config
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.pdb
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.dll
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.xml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.AssemblyReference.cache
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\App.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_Content.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.cache
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.lref
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.g.resources
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.Properties.Resources.resources
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.GenerateResource.cache
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CoreCompileInputs.cache
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktika.B9545AB8.Up2Date
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.exe
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.pdb
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.baml
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\Database1.mdf
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\Database1_log.ldf
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe.config
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.pdb
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.dll
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.xml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.AssemblyReference.cache
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Login.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\App.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_Content.g.cs
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.cache
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.lref
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Login.baml
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.g.resources
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.Properties.Resources.resources
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.GenerateResource.cache
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CoreCompileInputs.cache
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktika.B9545AB8.Up2Date
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.exe
+C:\Users\slawa\OneDrive\Рабочий стол\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.pdb
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\Database1.mdf
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\Database1_log.ldf
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe.config
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.pdb
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.dll
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.dll
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.xml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.xml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.resources.dll
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.AssemblyReference.cache
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Login.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\App.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_Content.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.cache
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.lref
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Login.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.baml
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.g.resources
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.Properties.Resources.resources
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.GenerateResource.cache
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CoreCompileInputs.cache
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.exe
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.pdb
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktika.B9545AB8.Up2Date
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhrana.g.cs
+D:\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhrana.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\Database1.mdf
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\Database1_log.ldf
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe.config
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.exe
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\praktikaAnohin.pdb
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.dll
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.dll
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.xml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\EntityFramework.SqlServer.xml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.resources.dll
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.AssemblyReference.cache
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.SuggestedBindingRedirects.cache
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhrana.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Login.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\App.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_Content.g.cs
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.cache
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin_MarkupCompile.lref
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\MainWindow.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhrana.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDOhranaWindow.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDPrihod.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisAvto.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\ADDSpisVladelca.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Login.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MainWindowc.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\MenuPage.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Ohrana.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\OhranaWindow.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Otchet.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Prihod_uhod.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\Spisok_Avto.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\Pages\SpisVladelca.baml
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.g.resources
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.Properties.Resources.resources
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.GenerateResource.cache
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CoreCompileInputs.cache
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.csproj.CopyComplete
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.exe
+E:\3 курс\МДК Шатилова\Практика почти готова\praktikaAnohin\praktikaAnohin\obj\Debug\praktikaAnohin.pdb
